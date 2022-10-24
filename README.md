@@ -1,2 +1,2 @@
 # Daplin
-Sikwate at Kape sa Daplin Online Shop
+Sikwate Sa Daplin Online Shop
