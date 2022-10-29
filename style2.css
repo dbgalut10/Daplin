@@ -86,7 +86,7 @@ section{
 }
 
 .header .logo img{
-    height: 3.3rem;
+    height: 3.8rem;
     border-radius: .5rem;
 }
 
@@ -212,13 +212,13 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(./images/Puto-Maya-and-Sikwate-01.webp) no-repeat;
-    background-size:87% 87%;
-    background-position: center;
+    background:url(./images/baterol2.jpg) no-repeat;
+    background-size:cover;
 }
 
 .home .content{
     max-width: 47rem;
+    align-items: center;
 }
 
 .home .content h3{
@@ -280,7 +280,7 @@ section{
 }
 
 .menu .box-container .box img{
-    height: 10rem;
+    height: 20rem;
 }
 
 .menu .box-container .box h3{
@@ -429,9 +429,11 @@ section{
 
 
 .contact .row .map{
-    flex:1 1 45rem;
-    width: 100%;
+    flex:3 3 50rem;
+    width: 85%;
+    height: 30rem;
     object-fit: cover;
+    padding: 1rem;
 }
 
 .contact .row form{
@@ -492,10 +494,12 @@ section{
     height: 100%;
     object-fit: cover;
     width: 90%;
+    padding: 3rem;
+    align-items: center;
 }
 
 .blogs .box-container .box:hover .image img{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .blogs .box-container .box .content{
@@ -686,6 +690,7 @@ section{
         padding:.5rem;
         font-size: 2rem;
         margin-inline: 0rem;
+        display:block;
     }
 
     .header .search-form{
@@ -695,7 +700,7 @@ section{
     }
 
     .home{
-        background-position: left;
+        background-position: center;
         justify-content: center;
         text-align: center;
     }
