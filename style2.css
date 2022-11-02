@@ -223,7 +223,7 @@ section{
 
 .home .content h3{
     font-size: 5rem;
-    text-transform: uppercase;
+    text-transform: none;
     color:#13131a;
 }
 
@@ -675,8 +675,8 @@ section{
         position: absolute;
         top:90%; right: -90%;
         background: #fff;
-        width: 30rem;
-        height: calc(100vh - 9.5rem);
+        width: 12rem;
+        height: calc(35vh - 5.5rem);
     }
 
     .header .navbar.active{
